@@ -20,12 +20,12 @@ CXXFLAGS += -Wfloat-equal -Wredundant-decls -Wshadow -Wconversion -Wuninitialize
 # endif
 
 # list your .h files here
-HEADERS =
+HEADERS = chart.h
 
 # list .cpp files here according to main program, tests, or both
 PROGRAM_FILES = main.cpp
 TEST_FILES = tests.cpp
-SHARED_FILES = 
+SHARED_FILES = chart.cpp
 
 .PHONY: all
 all: program.exe tests.exe
