@@ -3,6 +3,6 @@
 
 #include <cmath>
 
-// 
+double findMax()
 
 #endif
