@@ -1,17 +1,15 @@
 #ifndef chart_h
 #define chart_h
 
-#include <algorithm>
 #include <vector>
 
-double findMax(double data) {
-  double V_max = 0;
-
-  V_max = max(data);
-
-  return V_max;
-}
-
+/**
+ * @brief  Finds the largest value in a vector of doubles
+ * 
+ * @param data The input dataset
+ * @return The maximum value 
+ */
+double findMax(const std::vector<double>& data);
 
 
 #endif
