@@ -7,7 +7,7 @@
 double findMax(double data) {
   double max_val = 0;
 
-  
+  max_val = max(data);
 }
 
 #endif
