@@ -8,6 +8,10 @@ double findMax(double data) {
   double V_max = 0;
 
   V_max = max(data);
+
+  return V_max;
 }
+
+
 
 #endif
