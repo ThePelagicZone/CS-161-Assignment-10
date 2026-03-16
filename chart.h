@@ -1,10 +1,8 @@
 #ifndef chart_h
 #define chart_h
 
-#include <string>
+#include <cmath>
 
-int getAnswer();
-
-std:: string getGreeting();
+// 
 
 #endif
