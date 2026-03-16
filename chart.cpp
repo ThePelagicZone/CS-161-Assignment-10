@@ -10,5 +10,7 @@ double findMax(const vector<double>& data) {
     return 0;
   }
 
+  auto V_max = max_element(data.begin() , data.end());
 
+  return V_max;
 }
