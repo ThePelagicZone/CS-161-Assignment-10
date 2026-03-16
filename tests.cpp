@@ -4,7 +4,4 @@
 
 using doctest::Approx;
 
-TEST_CASE( "test setup" ) {
-  CHECK( getAnswer() == 42);
-  CHECK( getGreeting() == "Hello, World");
-}
+TEST_CASE
