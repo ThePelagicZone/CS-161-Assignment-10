@@ -5,9 +5,9 @@
 #include <vector>
 
 double findMax(double data) {
-  double max_val = 0;
+  double V_max = 0;
 
-  max_val = max(data);
+  V_max = max(data);
 }
 
 #endif
