@@ -1,11 +1,14 @@
 #include "chart.h"
 
+#include <algorithm>
+
 using namespace std;
 
-int getAnswer() {
-  return 42;
-}
+double findMax(const std::vector<double>& data) {
+  //Protection from empty data
+  if (data.empty()) {
+    return 0;
+  }
 
-string getGreeting() {
-  return "Hello, World";
+  
 }
