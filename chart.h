@@ -2,7 +2,10 @@
 #define chart_h
 
 #include <cmath>
+#include <vector>
 
-double findMax()
+double findMax(double data) {
+  
+}
 
 #endif
